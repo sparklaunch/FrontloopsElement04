@@ -54,6 +54,10 @@
                             <constraint firstItem="04X-yS-aA5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="npg-9r-6te"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="animatedText" destination="75V-ok-Tjo" id="xUh-hY-ME9"/>
+                        <outlet property="mainContainer" destination="04X-yS-aA5" id="WWu-e0-by1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
